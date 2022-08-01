@@ -1,0 +1,7 @@
+<mat-spinner style="margin: 0 auto;" color="accent" diameter="30"  *ngIf="!isLoaded"></mat-spinner>
+
+<mat-card  *ngFor="let parking of parkings " class="parking-card" >
+<div>nom du produit:{{parking.nomproduit}}</div>
+<div>prix:{{parking.prix}}</div>
+
+</mat-card>
